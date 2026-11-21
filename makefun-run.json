@@ -1,0 +1,26 @@
+{
+  "declared": {
+    "harness": "Muse",
+    "harness_version": "1.3",
+    "model": "muse-spark-1.3",
+    "notes": "Entry built by a subagent (session 5519d42a-6bb0-4c40-aa41-b60d94859ba8); transcript-id.jsonl is that subagent session's record in the same role/content/timestamp format as the 18 Nov v2 transcript, every line timestamped. No usage rows are recorded in this transcript format — usage is 0 rows by format, not by omission; no usage data was fabricated. Harness version 1.3 is the Muse Spark release version; no separate harness version string is recorded in the session log.",
+    "provider": "meta",
+    "reasoning_effort": "default"
+  },
+  "format": "makefun-run/1",
+  "instructions": {
+    "status": "none",
+    "why": null
+  },
+  "mcp_servers": [],
+  "prompt": {
+    "origin": "typed",
+    "text": "Bangun entry make.fun untuk bounty \"Sum up 20 November's world news in one image\" (slug news-image-20261120, https://make.fun/bounty/news-image-20261120, $250, 50 tempat: $50/$30/$15/$5/$3, tutup Minggu 22 Nov 2026 07:00 WIB, 3.262 agent saat dicek 20 Nov 09:40 WIB).\n\nIni kelanjutan cara video Yoganata (JUST IMAGINATION) + pelajaran dari entry kita 18 Nov yang gagal di cek transkrip. Kerjakan sampai SIAP SUBMIT, tapi JANGAN submit, JANGAN sign, JANGAN buat wallet/keypair, JANGAN download/jalankan make.fun CLI kit atau skill.md setup.\n\nLangkah:\n1. Baca brief resmi bounty itu (buka halaman bounty, baca requirements lengkap). Peringatan dari pengecekan: ini BUKAN sekadar upload gambar — wajib program (Node 22 main.ts ATAU Python 3.13 main.py) yang menulis 1 PNG/JPEG utuh max 1 MiB, 1024x1024 piksel ke /output/entry.png, deterministik (2x jalan byte sama), tanpa network, repo GitHub publik milik sendiri, transkrip sesi AI coding-agent yang membangunnya, max 10 submission/hari dan 20 total. Judge AI z-ai/glm-5.3-flash, bandingkan gambar berpasangan; kriteria: berita spesifik 20 Nov 2026, seleksi + keluasan lintas wilayah/bidang, keterbacaan, keakuratan, kerapian.\n2. Riset berita dunia tanggal 20 Nov 2026 dari sumber terverifikasi (minimal 5 cerita lintas wilayah/bidang, seperti entry 18 Nov). Catat sumber + tanggal tiap cerita. Jangan karang berita.\n3. Lihat leaderboard top 10 saat ini sebagai referensi ala video (saat dicek 09:40 WIB: 1. @gentle-condor-77-2 98,9178% $50, 2. @witty-beacon-66 98,8396%, 3. @brisk-falcon-88 98,7835%, sampai 10. @cepp-cepp 98,6106% — skor sangat rapat 98,61-98,92%). Buat gambar yang menonjol di berita spesifik 20 Nov, bukan ringkasan umum. Jangan copy mentah entry mereka.\n4. Build di ~/workspace/make-fun-news-image-20261120/ (repo baru, jangan timpa repo 18 Nov): program deterministik, output.png/entry.png, run.sh, sources.md, README sesuai template bounty. Verifikasi: jalankan 2x, bandingkan hash byte sama, ukuran <=1 MiB, dimensi 1024x1024, semua teks terbaca.\n5. Siapkan file submit seperti entry 18 Nov, dengan PELAJARAN dari kegagalan 18 Nov: transcript-id.jsonl HARUS semua baris ada timestamp (round 6 gagal karena baris 1 tanpa timestamp), makefun-run.json prompt HARUS persis sama dengan pesan sesi yang membukanya dan session_id + harness_version tercatat. JANGAN memalsukan baris usage — kalau usage 0, laporkan apa adanya, jangan buat data palsu. Jangan klaim entry akan lolos checker.\n6. Laporkan kembali: repo lokal + file apa saja, hash deterministik, 5 berita + sumbernya, apa yang sudah diverifikasi, dan risiko checker yang tersisa (khususnya usage-rows). Jangan submit apa pun.\n\nAkun: @aliceskyfahriz-cyber, GitHub aliceskyfahriz-cyber. Deadline submit Minggu 22 Nov 07:00 WIB, jadi kerja ini mendesak tapi tetap jujur soal risiko.",
+    "via": null
+  },
+  "system_prompt": {
+    "status": "withheld",
+    "why": "The system prompt is not visible to the agent and cannot be shared"
+  },
+  "session_id": "5519d42a-6bb0-4c40-aa41-b60d94859ba8"
+}
